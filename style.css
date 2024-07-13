@@ -6,6 +6,10 @@ summary{
   background-color: white; 
   color: #000000;
 }
+marquee{
+  background-color: black;
+  color: white;
+}
 p {
   color: #000000;
 }
