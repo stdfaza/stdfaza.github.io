@@ -1,6 +1,9 @@
 body {
   background-color: #7FFFD4;
   color: #00008B;
+  --value: white;
+  background-color: var(--value);
+  transition: background-color 1s;
 }
 summary{
   background-color: white; 
