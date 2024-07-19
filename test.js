@@ -1,5 +1,5 @@
 let body = 
-document.queryselector("body");
+document.querySelector("body");
 let isToggled = false;
 
 body.onclick = () => {
