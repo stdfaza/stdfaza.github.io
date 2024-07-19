@@ -27,19 +27,19 @@ label {
 }
 
 input {
-  background-color: white;
+  background-color: black;
   width: 0px;
   transition: width 1s, border-radius 1s;
   border-radius: 50%;
   border-color: transparent;
   outline: none;
   padding: 12px 20px 10px 16px;
-  color: black;
+  color: white;
   cursor: pointer;
 }
 
 input:focus {
   border-radius: 10%/20%;
   width: 150px;
-  color: blue;
+  color: pink;
 }
