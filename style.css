@@ -27,7 +27,7 @@ label {
 }
 
 input {
-  background-color: black;
+  background-color: cyan;
   width: 0px;
   transition: width 1s, border-radius 1s;
   border-radius: 50%;
@@ -41,5 +41,5 @@ input {
 input:focus {
   border-radius: 10%/20%;
   width: 150px;
-  color: pink;
+  color: black;
 }
