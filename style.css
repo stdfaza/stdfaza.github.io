@@ -1,35 +1,44 @@
+/* style.css */
 body {
   color: #00008B;
   --value: white;
   background-color: var(--value);
   transition: background-color 1s;
 }
-summary{
+
+summary {
   background-color: white; 
   color: #000000;
 }
-marquee{
+
+.notification {
   background-color: black;
   color: white;
+  padding: 10px;
+  margin: 10px 0;
 }
+
 p {
   color: #000000;
 }
-label{
+
+label {
   position: relative;
 }
-input{
+
+input {
   background-color: white;
   width: 0px;
   transition: width 1s, border-radius 1s;
   border-radius: 50%;
-  border-color: traansparant;
+  border-color: transparent;
   outline: none;
   padding: 12px 20px 10px 16px;
   color: black;
   cursor: pointer;
 }
-input:focus{
+
+input:focus {
   border-radius: 10%/20%;
   width: 150px;
   color: blue;
