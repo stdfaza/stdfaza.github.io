@@ -1,9 +1,6 @@
-let body = 
-document.querySelector("body");
-let isToggled = false;
-
-body.onclick = () => {
-    isToggled = !isToggled;
-    body.style.setProperty("--value", 
-        isToggled ? "black" : "white");
-}
+// test.js
+document.getElementById('switch').addEventListener('click', () => {
+  const body = document.body;
+  const isToggled = body.style.getPropertyValue('--value') === 'black';
+  body.style.setProperty('--value', isToggled ? 'white' : 'black');
+});
