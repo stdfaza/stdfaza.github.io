@@ -1,6 +1,6 @@
 body {
   color: #00008B;
-  --value: aquamarine;
+  --value: white;
   background-color: var(--value);
   transition: background-color 1s;
 }
